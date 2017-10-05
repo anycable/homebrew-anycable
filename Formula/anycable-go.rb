@@ -11,7 +11,7 @@ class AnycableGo < Formula
   def install
     ENV["GOPATH"] = buildpath
     (buildpath/"src/github.com/anycable/anycable-go/").install Dir["*"]
-    system "go", "build", "-o", "#{bin}/anycable-go", "-v", "github.com/anycable/anycable-go/"
+    system "go", "build", "-ldflags", "-X main.version=#{version}", "-o", "#{bin}/anycable-go", "-v", "github.com/anycable/anycable-go/"
   end
 
   test do
