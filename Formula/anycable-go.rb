@@ -2,7 +2,7 @@ class AnycableGo < Formula
   desc "Anycable Go WebSocket Server"
   homepage "https://github.com/anycable/anycable-go"
   url "https://github.com/anycable/anycable-go/archive/v0.5.3.tar.gz"
-  sha256 "7b548685a5470a3ccddbbbafcdc83f35005f2955d4af11c1005f6b6c1ddec01c"
+  sha256 "be6026f96d9b5cf7a296a0147b94d9e081abb5c43ec41cce32ee3c8fc1bbe4c1"
 
   head "https://github.com/anycable/anycable-go.git"
 
