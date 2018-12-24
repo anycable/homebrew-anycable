@@ -12,7 +12,7 @@ $ brew tap anycable/anycable
 
 ## Current formulas
 
-* anycable-go
+* anycable-go (migrated to [homebrew/core](https://github.com/Homebrew/homebrew-core))
 
 ## License
 
